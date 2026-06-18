@@ -77,4 +77,6 @@ streamlit run chatbot.py
 * Chat History Persistence
 * Streaming Responses
 
+Live Demo:
+https://app-genai-chatbot2706.streamlit.app/
 
