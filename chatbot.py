@@ -19,6 +19,19 @@ st.set_page_config(
     layout="centered",         # Center page content
 )
 
+
+# Background color
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #E6F3FF;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Display page heading
 st.title("💬 Generative AI Chatbot")
 
