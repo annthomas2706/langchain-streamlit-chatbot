@@ -33,7 +33,7 @@ st.markdown(
 )
 
 # Display page heading
-st.title("💬 Generative AI Chatbot")
+st.title("💬 AISHUMMAS Chatbot")
 
 
 # Create chat history only during first run
