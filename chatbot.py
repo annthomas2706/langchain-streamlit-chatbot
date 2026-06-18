@@ -28,14 +28,14 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 
-# # Display previous messages stored in session state
-# for message in st.session_state.chat_history:
+# Display previous messages stored in session state
+for message in st.session_state.chat_history:
 
-#     # Create user/assistant chat bubble
-#     with st.chat_message(message["role"]):
+    # Create user/assistant chat bubble
+    with st.chat_message(message["role"]):
 
-#         # Display message text inside bubble
-#         st.markdown(message["content"])
+        # Display message text inside bubble
+        st.markdown(message["content"])
 
 
 # Create Groq LLM object
